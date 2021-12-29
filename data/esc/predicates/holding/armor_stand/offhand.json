@@ -1,0 +1,31 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "player",
+            "equipment": {
+                "offhand": {
+                    "items": [
+                        "armor_stand"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": {
+                    "offhand": {
+                        "nbt": "{EntityTag:{ShowArms:1b}}"
+                    }
+                }
+            }
+        }
+    }
+]

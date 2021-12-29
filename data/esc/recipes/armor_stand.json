@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "armor_stand"
+        }
+    ],
+    "result": {
+        "item": "armor_stand"
+    }
+}

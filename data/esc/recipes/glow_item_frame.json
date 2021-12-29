@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "glow_item_frame"
+        }
+    ],
+    "result": {
+        "item": "glow_item_frame"
+    }
+}

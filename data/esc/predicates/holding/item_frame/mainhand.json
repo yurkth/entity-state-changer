@@ -1,0 +1,32 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "player",
+            "equipment": {
+                "mainhand": {
+                    "items": [
+                        "item_frame",
+                        "glow_item_frame"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{EntityTag:{Invisible:1b}}"
+                    }
+                }
+            }
+        }
+    }
+]

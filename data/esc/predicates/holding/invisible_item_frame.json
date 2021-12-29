@@ -1,0 +1,37 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": {
+                    "mainhand": {
+                        "items": [
+                            "item_frame",
+                            "glow_item_frame"
+                        ],
+                        "nbt": "{EntityTag:{Invisible:1b}}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": {
+                    "offhand": {
+                        "items": [
+                            "item_frame",
+                            "glow_item_frame"
+                        ],
+                        "nbt": "{EntityTag:{Invisible:1b}}"
+                    }
+                }
+            }
+        }
+    ]
+}

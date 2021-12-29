@@ -1,0 +1,34 @@
+[
+    {
+        "function": "set_nbt",
+        "tag": "{EntityTag:{Invisible:1b},Enchantments:[{id:\"unbreaking\",lvl:1}],HideFlags:1}"
+    },
+    {
+        "function": "set_name",
+        "name": {
+            "text": "透明な額縁",
+            "color": "aqua",
+            "italic": false
+        }
+    },
+    {
+        "function": "set_lore",
+        "lore": [
+            {
+                "text": "設置後に破壊するか",
+                "color": "gold",
+                "italic": false
+            },
+            {
+                "text": "単体でクラフトすると",
+                "color": "gold",
+                "italic": false
+            },
+            {
+                "text": "元に戻ります",
+                "color": "gold",
+                "italic": false
+            }
+        ]
+    }
+]
