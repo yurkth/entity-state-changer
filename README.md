@@ -1,4 +1,4 @@
-# Light Level Checker
+# Entity State Changer
 
 Minecraftで透明な額縁や腕付きの防具立てを設置できるようにするデータパックです。
 
